@@ -1,12 +1,12 @@
 # Generate J2EE project using Archtype
 How to generate a Maven based J2EE project using Archtype
 
-#Step 1
+### Step 1
 Create an archetype using the maven command in you terminal
 
 ` mvn archetype:generate -DgroupId=com.silverg4te.maven -DartifactId=samplemavenapp -Dversion=1.0-SNAPSHOT`
 
-#Step 2
+### Step 2
 Maven will download necessary POM files and Jasr into your Local Maven Repo
 ```
 [INFO] Scanning for projects...
@@ -25,7 +25,7 @@ Maven will download necessary POM files and Jasr into your Local Maven Repo
 [INFO] No archetype defined. Using maven-archetype-quickstart (org.apache.maven.archetypes:maven-archetype-quickstart:1.0)
 ```
 
-#Step 3
+### Step 3
 Maven will display all the available archtype from Maven Repository.
 For illustration purpose, choos the quick start archtype.
 ```
@@ -47,7 +47,7 @@ Choose a number or apply filter (format: [groupId:]artifactId, case sensitive co
 
 Select `org.apache.maven.archetypes:maven-archetype-quickstart (An archetype which contains a sample Maven project.)` which in my case is number 1667
 
-#Step 4
+### Step 4
 Next maven will ask you to choose the version of maven archetype. Select the latest version.
 ```
 Choose org.apache.maven.archetypes:maven-archetype-quickstart version: 
@@ -64,7 +64,7 @@ Choose a number: 8:
 
 Press `enter` to select `8` or the latest version.
 
-#Step 5
+### Step 5
 Next maven will display the given properties for confirmation. Press `enter` to select `Y`
 
 ```
@@ -80,7 +80,7 @@ package: com.silverg4te.maven
  Y: : 
 ```
 
-#Step 6
+### Step 6
 Maven will create a product as given in the `DartifactId` parameter and display that the build is successful.
 ```
 [INFO] ----------------------------------------------------------------------------
@@ -104,5 +104,6 @@ Maven will create a product as given in the `DartifactId` parameter and display 
 [INFO] ------------------------------------------------------------------------
 ```
 
-#Conclusion
+
+### Conclusion
 You have successful create a J2EE project using Maven Archtype. 
