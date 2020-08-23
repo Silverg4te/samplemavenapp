@@ -1,4 +1,4 @@
-# Generate J2EE project using Archtype
+# Generate Maven Based J2EE project using Archtype
 How to generate a Maven based J2EE project using Archtype
 
 ### Step 1
